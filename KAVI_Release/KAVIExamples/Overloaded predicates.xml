@@ -1,0 +1,99 @@
+<domain>
+    <definition>
+        <diagram>
+            <node id="24114">
+                <label>in</label>
+                <type>predicate</type>
+                <pos>
+                    <x>-211</x>
+                    <y>-197</y>
+                </pos>
+                <connections>
+                    <starts argn="1">4084</starts>
+                    <starts argn="2">12290</starts>
+                </connections>
+            </node>
+            <node id="26809">
+                <label>package</label>
+                <type>class</type>
+                <pos>
+                    <x>-83</x>
+                    <y>-143</y>
+                </pos>
+                <connections>
+                    <ends>4084</ends>
+                    <ends>29996</ends>
+                </connections>
+            </node>
+            <node id="23556">
+                <label>vehicle</label>
+                <type>class</type>
+                <pos>
+                    <x>-82</x>
+                    <y>-208</y>
+                </pos>
+                <connections>
+                    <ends>12290</ends>
+                </connections>
+            </node>
+            <node id="21293">
+                <label>in</label>
+                <type>predicate</type>
+                <pos>
+                    <x>-209</x>
+                    <y>-90</y>
+                </pos>
+                <connections>
+                    <starts argn="1">29996</starts>
+                </connections>
+            </node>
+            <edge id="4084">
+                <purpose>association</purpose>
+                <start nid="24114">
+                    <pos>
+                        <x>-195</x>
+                        <y>-181</y>
+                    </pos>
+                </start>
+                <end nid="26809">
+                    <pos>
+                        <x>-114</x>
+                        <y>-159</y>
+                    </pos>
+                </end>
+            </edge>
+            <edge id="12290">
+                <purpose>association</purpose>
+                <start nid="24114">
+                    <pos>
+                        <x>-195</x>
+                        <y>-181</y>
+                    </pos>
+                </start>
+                <end nid="23556">
+                    <pos>
+                        <x>-113</x>
+                        <y>-224</y>
+                    </pos>
+                </end>
+            </edge>
+            <edge id="29996">
+                <purpose>association</purpose>
+                <start nid="21293">
+                    <pos>
+                        <x>-190</x>
+                        <y>-94</y>
+                    </pos>
+                </start>
+                <end nid="26809">
+                    <pos>
+                        <x>-109</x>
+                        <y>-130</y>
+                    </pos>
+                </end>
+            </edge>
+        </diagram>
+    </definition>
+    <operators/>
+    <problems/>
+</domain>
